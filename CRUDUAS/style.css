@@ -1,0 +1,89 @@
+/* style.css */
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #007bff;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #cce5ff;
+}
+
+/* Container styling */
+.container {
+    margin-top: 20px;
+}
+
+/* Card styling for content */
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #0953ff;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Image styling */
+img {
+    max-width: 200%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Card image styling */
+/* Card image styling */
+.card img {
+    width: 100%;
+    max-width: 4000px; /* Atur lebar maksimum gambar */
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+
+/* Footer styling (optional) */
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
